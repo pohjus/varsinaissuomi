@@ -11,6 +11,9 @@ let customers = [
 
 // HTTP GET http://localhost:8080/api/customers
 app.get("/api/customers", (req, res) => {
+  // text/plain
+  // text/html
+  // application/json
   res.send(customers);
 });
 
